@@ -1,0 +1,61 @@
+/*
+
+  Typography
+  +
+
+*/
+
+
+
+
+body{
+  line-height: $base-line-height;
+}
+
+ol{
+  text-align: left;
+
+  li{
+
+  }
+}
+
+code{
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+a{
+  color: $black;
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,h6, .wp-block-site-title{
+  font-family: $ozik;
+}
+
+.wp-block-site-title{
+  font-size: 2.8rem;
+  text-decoration: 5px $red underline;
+}
+
+h2.wp-block-post-title{
+  font-size: 1.75rem !important;
+  font-family: $nuform;
+}
+
+.single .wp-block-post-title{
+  font-size: 2rem;
+}
+
+.taxonomy-category a{
+  color: $red;
+  transition:ease-in .5s;
+  text-decoration: none !important;
+
+  &:hover{
+    color: $white;
+    background: $red;
+  }
+}
