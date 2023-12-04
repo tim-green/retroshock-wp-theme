@@ -1,0 +1,78 @@
+/*
+
+  Base
+  +
+
+*/
+
+// Smooth scroll
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background: $main;
+  color: $black;
+  font-family: $nuform;
+}
+
+a{
+  text-decoration-thickness: 1px;
+  text-underline-offset: .175em;
+}
+
+input,textarea{
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+
+// Media
+@media (max-width: 781px){
+  :root:not(.editor-style-wrapper) .site-header-desktop, :root:not(.editor-styles-wrapper).site-sidebar-col{
+    display: none !important
+  }
+}
+
+@media (min-width: 782px){
+  :root:not(.editor-styles-wrapper) .site-header{
+    display: none !important;
+  }
+}
+
+
+// Helpers
+.hide-empty:empty{
+  display: none !important
+}
+
+// Block - Quote/Pullquote
+.is-style-has-quotation-mark:before, .wp-block-pullquote blockquote:before{
+  content: "";
+  display: block;
+  font-family: $nuform;
+  font-size: clamp(80px, 3em, 128px);
+  line-height: .8;
+  margin-bottom: .3em;
+  margin-left: -.07em;
+  max-height: .4em;
+}
+
+.wp-block-post{
+  border-right: 2px solid $darkyellow;
+  border-bottom: 2px solid $darkyellow;
+
+  border-left: 2px solid $yellow;
+  border-top: 2px solid $yellow;
+  padding: 10px;
+
+  &:hover{
+    border-left: 2px solid $darkyellow;
+    border-top: 2px solid $darkyellow;
+
+    border-right: 2px solid $yellow;
+    border-bottom: 2px solid $yellow;
+  }
+}
+
