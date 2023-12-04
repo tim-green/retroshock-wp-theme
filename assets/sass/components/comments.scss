@@ -14,3 +14,22 @@
 .comment-form > * {
 	margin: 0 0 var(--wp--preset--spacing--40);
 }
+
+.avatar{
+	border: 1px solid $red;
+}
+
+.wp-block-comment-author-name{
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+.wp-block-comment-content{}
+
+.comment{
+	border: 2px solid $darkyellow;
+	padding: .5rem 1.1rem ;
+	border-radius: 20px;
+	margin-top: 1.2rem;
+	
+}
