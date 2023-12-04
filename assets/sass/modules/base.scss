@@ -76,3 +76,13 @@ input,textarea{
   }
 }
 
+
+// Footer
+.site-footer{
+  .wp-block-site-title{
+    a{
+      font-size: 0.8rem !important;
+      text-decoration: none;
+    }
+  }
+}
