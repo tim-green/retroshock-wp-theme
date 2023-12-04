@@ -8,4 +8,15 @@
 .wp-block-group.hide-empty:has( .wp-block-group.hide-empty > .wp-block-post-navigation-link:only-child:empty )
 .wp-block-group.hide-empty:has( > .wp-block-post-navigation-link:only-child:empty ) {
 	display: none !important;
+
+.post-navigation-link-previous{
+  padding-left: .50em;
+  padding-bottom: .1em;
+}
+
+.post-navigation-link-next{
+  padding-right: .50em;
+  padding-bottom: .1em;
+}
+
 }
