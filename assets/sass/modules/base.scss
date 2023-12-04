@@ -47,6 +47,11 @@ input,textarea{
   display: none !important
 }
 
+
+// Block - Social links
+.wp-block-social-links{
+  padding: .4em 0;
+}
 // Block - Quote/Pullquote
 .is-style-has-quotation-mark:before, .wp-block-pullquote blockquote:before{
   content: "";
