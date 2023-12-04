@@ -1,0 +1,140 @@
+/*
+
+  Variables
+  +
+
+*/
+
+
+// @font-face
+// Nuform Sans Font
+// @font-face {
+//   font-family: 'nuform_sansblack';
+//   src: url('../../fonts/nuform/nuformsans-black.woff') format('woff2'),
+//        url('../../fonts/nuform/nuformsans-black.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
+
+// @font-face {
+//   font-family: 'nuform_sansbold';
+//   src: url('../../fonts/nuform/nuformsans-bold.woff2') format('woff2'),
+//        url('../../fonts/nuform/nuformsans-bold.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
+
+// @font-face {
+//   font-family: 'nuform_sansmedium';
+//   src: url('../../fonts/nuform/nuformsans-medium.woff2') format('woff2'),
+//        url('../../fonts/nuform/nuformsans-medium.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
+
+
+
+// @font-face {
+//   font-family: 'nuform_sanssemibold';
+//   src: url('../../fonts/nuform/nuformsans-semibold.woff2') format('woff2'),
+//        url('../../fonts/nuform/nuformsans-semibold.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
+
+@font-face {
+  font-family: 'Nuform';
+  src: url('../assets/fonts/nuform/nuformsans-regular.woff2') format('woff2'),
+       url('../assets/fonts/nuform/nuformsans-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+// Ozik Font
+// @font-face {
+//   font-family: 'ozikblack';
+//   src: url('../../fonts/ozik/ozik-black.woff2') format('woff2'),
+//        url('../../fonts/ozik/ozik-black.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
+
+// @font-face {
+//   font-family: 'ozikbold';
+//   src: url('../../fonts/ozik/ozik-bold.woff2') format('woff2'),
+//        url('../../fonts/ozik/ozik-bold.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
+
+// @font-face {
+//   font-family: 'ozikmedium';
+//   src: url('../../fonts/ozik/ozik-medium.woff2') format('woff2'),
+//        url('../../fonts/ozik/ozik-medium.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
+
+@font-face {
+  font-family: 'Ozik';
+  src: url('../assets/fonts/ozik/ozik-regular.woff2') format('woff2'),
+       url('../assets/fonts/ozik/ozik-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+// Fonts
+$nuform: 'Nuform', sans-serif;
+$ozik: 'Ozik', sans-serif;
+
+
+
+
+// Colours
+$yellow: #fec545;
+$darkyellow: #ebb640;
+$red: #e33f45;
+$white: #fff;
+$black: #131313;
+$darkorange: #3b1b17;
+
+$main: $yellow;
+$secondary: $red;
+$heading: $black;
+
+// Base
+
+$base-line-height: 1.7;
+
+//Google font
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap);
+
+//Typekit font
+
+//Fonts
+
+// Weights
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+//Text Transform
+$text-cap: capitalize; 
+$text-lower: lowercase;
+$text-upper: uppercase;
+$text-none: none;
