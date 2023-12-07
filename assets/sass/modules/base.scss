@@ -65,6 +65,8 @@ input,textarea{
 }
 
 .wp-block-post{
+  background: rgba($yellow, .4);
+
   border-right: 2px solid $darkyellow;
   border-bottom: 2px solid $darkyellow;
 
