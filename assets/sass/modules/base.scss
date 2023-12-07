@@ -86,6 +86,16 @@ input,textarea{
 
 // Footer
 .site-footer{
+
+  background: $vw-green;
+  color: $white;
+
+  .theme-credit, a{
+      color: $white;
+      text-decoration: none;
+   
+  }
+
   .wp-block-site-title{
     a{
       font-size: 0.8rem !important;
