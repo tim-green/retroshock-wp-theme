@@ -34,7 +34,28 @@
 }
 
 .wp-block-post-navigation-link{
+  background: $vw-red;
   a{
-    font-size: .23em
+    font-size: .5em;
+    color: $white;
+  }
+}
+
+.wp-block-query-pagination-previous, .wp-block-query-pagination-next{
+  background: $yellow;
+  color: $black;
+ 
+}
+.current{
+  background: $vw-green !important;
+  color: $white;
+}
+
+.page-numbers{
+  transition: $transition-in; 
+  &:hover{
+    background: $vw-red;
+    color: $white;
+    transition: $transition-out;
   }
 }
