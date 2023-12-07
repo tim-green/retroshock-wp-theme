@@ -47,6 +47,15 @@ input,textarea{
   display: none !important
 }
 
+// Sidebar Col
+.site-sidebar-col{
+  background: $yellow;
+}
+
+// Main
+.the-content{
+  background: $white;
+}
 
 // Block - Social links
 .wp-block-social-links{
