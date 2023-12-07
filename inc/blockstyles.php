@@ -133,7 +133,7 @@ if (! function_exists('groundctrl_block_styles')) : function groundctrl_block_st
 
             .is-style-groundctrl-pagination a:hover,
             .is-style-groundctrl-pagination .wp-block-query-pagination-numbers .current {
-                background: var( --wp--preset--color--30 );
+                border-color: var( --wp--preset--color--30 );
             }",
         )
     );
