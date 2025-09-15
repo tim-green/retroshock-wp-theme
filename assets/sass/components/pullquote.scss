@@ -5,6 +5,8 @@
 
 */
 
+@use '../modules/variables' as *;
+
 .wp-block-pullquote.has-background-color { 
 	padding: var(--wp--preset--spacing--50) 
 }

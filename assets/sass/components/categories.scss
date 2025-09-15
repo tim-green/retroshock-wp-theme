@@ -4,6 +4,9 @@
   +
 
 */
+
+@use '../modules/variables' as *;
+
 .wp-block-categories{
     ul {
         list-style-type: none;

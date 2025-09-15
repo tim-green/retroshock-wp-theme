@@ -11,13 +11,11 @@
 
 */
 
-
-@import "modules/mixins";
-@import "modules/variables";
-
-@import "modules/base";
-@import "modules/typography";
-//@import "modules/themes";
+@forward "modules/variables";
+@forward "modules/mixins";
+@forward "modules/base";
+@forward "modules/typography";
+//@forward "modules/themes";
 
 /*
 
@@ -31,15 +29,15 @@
  Components
 
 */
-@import "components/categories";
-@import "components/comments";
-@import "components/editor-style";
-@import "components/gallery";
-@import "components/navigation";
-@import "components/post-comments-forms";
-@import "components/post-navigation-link";
-@import "components/pullquote";
-@import "components/search";
+@forward "components/categories";
+@forward "components/comments";
+@forward "components/editor-style";
+@forward "components/gallery";
+@forward "components/navigation";
+@forward "components/post-comments-forms";
+@forward "components/post-navigation-link";
+@forward "components/pullquote";
+@forward "components/search";
 
 
 /*

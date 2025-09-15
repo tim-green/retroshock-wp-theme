@@ -5,6 +5,8 @@
 
 */
 
+@use '../modules/variables' as *;
+
 .post-pagination{
   background: $yellow;
 }
